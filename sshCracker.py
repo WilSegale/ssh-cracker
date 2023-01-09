@@ -11,10 +11,11 @@ import logging
 import pyfiglet
 import os
 
-
 os.system("clear")
 for i in tqdm(range(10), colour="green", desc="loading software"):
+    pass
     time.sleep(1.00)
+
 
 os.system("clear")
 name = "SSH   CRACKER"
