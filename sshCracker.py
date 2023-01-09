@@ -10,7 +10,7 @@ import time
 import logging
 import pyfiglet
 
-name = "SSH CRACKER"
+name = "SSH   CRACKER"
 ascii_banner = pyfiglet.figlet_format(f"{name}")
 print(ascii_banner)
 
