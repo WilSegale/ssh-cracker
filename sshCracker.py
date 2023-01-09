@@ -28,7 +28,7 @@ def ssh(host, username, password):
         ssh_client.connect(host,port=22,username=username, password=password, banner_timeout=300)
         with open("credentials_found.txt", "a") as fh:
             print(f"{Fore.GREEN}Username - {username} and Password - ******* found.")
-            fh.write(f"Username: {username}\nPassword: {password}\nWorked on host {host}\n")
+            fh.write(f"Username: {Fore.GREEN} {username} {Fore.RESET}\nPassword: {Fore.GREEN} {password} {Fore.RESET}\nWorked on host {host}\n")
     except AuthenticationException:
         with open("Wrong_credentials.txt", "a") as fh:
             print(f"{Fore.RED}Username - {username} and Password - ******* is Incorrect.")
