@@ -12,7 +12,7 @@ import pyfiglet
 import os
 
 os.system("clear")
-for i in tqdm(range(10), colour="green", desc="loading software"):
+for i in tqdm(range(10),colour="green", desc="loading software"):
     time.sleep(1.00)
 
 os.system("clear")
@@ -31,8 +31,8 @@ def ssh(host, username, password):
             fh.write(f"Username: {username}\nPassword: {password}\nWorked on host {host}\n")
     except AuthenticationException:
         with open("Wrong_credentials.txt", "a") as fh:
-            print(f"{Fore.RED}Username - {username} and Password - ****** is Incorrect.")
-            fh.write(f"Username: {username}\nPassword: {password}\nDidnt work on host {host}\n")
+            print(f"{Fore.RED}Username - {username} and Password - ******* is Incorrect.")
+            fh.write(f"Username: {username}\nPassword: {password}\nDidnt work on host {host}\n\n")
 
     except ssh.SSHException:
         print(f"{Fore.RED}**** Attempting to connect - Rate limiting on server ****")
@@ -45,8 +45,6 @@ def get_ip_address():
             return host
         except ipaddress.AddressValueError:
             print("Please enter a valid ip address.")
-            
-        
 
 def __main__():
     logging.getLogger('paramiko.transport').addHandler(NullHandler())
@@ -63,3 +61,4 @@ def __main__():
                 time.sleep(0.2)
 
 __main__()
+
