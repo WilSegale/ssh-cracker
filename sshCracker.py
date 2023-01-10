@@ -6,7 +6,6 @@ import time
 import csv
 import ipaddress
 import threading
-import time
 import logging
 import pyfiglet
 import os
