@@ -37,7 +37,7 @@ def ssh(host, username, password):
         with open("Wrong_credentials.txt", "a") as fh:
             print(f"{Fore.RED}Username - {username} and Password - ******* is Incorrect.")
             
-            fh.write(f"Username: {username}\nPassword: {password}\nDidnt work on host {host}\n\n")
+            fh.write(f"Username: {username}\nPassword: {password}\nDidnt work on host {host}{Fore.RESET}\n\n")
 
     except ssh.SSHException:
         print(f"{Fore.RED}**** Attempting to connect - Rate limiting on server ****")
