@@ -1,6 +1,7 @@
 from colorama import *
 from logging import NullHandler
 from paramiko import SSHClient, AutoAddPolicy, AuthenticationException, ssh_exception
+import pyfiglet
 import csv
 import ipaddress
 import threading
@@ -14,6 +15,10 @@ RED = Fore.RED
 BRIGHT = Style.BRIGHT
 NORMAL = Style.NORMAL
 DIM = Style.DIM
+
+name = "SSH cracker"
+ascii_banner = pyfiglet.figlet_format(f"{name}")
+print(ascii_banner)
 
 # This function is responsible for the ssh client connecting.
 def ssh_connect(host, username, password):
@@ -32,8 +37,8 @@ def ssh_connect(host, username, password):
     except AuthenticationException:
         with open("Wrong_credentials.txt","a") as fh:
             # We write the credentials that did not work to a file.
-            print(f"{RED}Username - {username} and Password - {password} is Incorrect.")
-            fh.write(f"\n{RED}Username - {username} and Password - {password} is Incorrect.")
+            print(f"{RED}Username - {username} and Password - **** is Incorrect.{RESET}{NORMAL}")
+            fh.write(f"\n{Fore.RESET}Username - {username} and Password - {password} is Incorrect.")
     
     except ssh_exception.SSHException:
         print(f"{RED}**** Attempting to connect - Rate limiting on server ****")
