@@ -42,7 +42,6 @@ def ssh_connect(host, username, password):
     
     except ssh_exception.SSHException:
         print(f"{RED}**** Attempting to connect - Rate limiting on server ****")
-
 # This function gets a valid IP address from the user. 
 def get_ip_address():
     # We create a while loop, that we'll break out of only once we've received a valid IP Address.
