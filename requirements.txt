@@ -214,7 +214,7 @@ ntlm-auth==1.4.0
 ntpsec==1.2.1
 numba==0.55.2
 numexpr==2.8.3
-numpy==1.21.5
+numpy==1.22.0
 odfpy==1.4.2
 olefile==0.46
 onboard==1.4.1
