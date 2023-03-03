@@ -29,7 +29,7 @@ asysocks==0.1.2
 attrs==21.2.0
 autobahn==22.1.1
 Automat==20.2.0
-Babel==2.8.0
+Babel==2.9.1
 backcall==0.2.0
 backoff==1.11.1
 base58==1.0.3
