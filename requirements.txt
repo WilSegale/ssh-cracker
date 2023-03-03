@@ -64,7 +64,7 @@ commonmark==0.9.1
 configobj==5.0.6
 constantly==15.1.0
 crackmapexec==5.2.2
-cryptography==3.4.8
+cryptography==39.0.1
 cycler==0.11.0
 Cython==0.29.30
 dataclasses-json==0.5.7
