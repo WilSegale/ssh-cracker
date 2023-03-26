@@ -7,6 +7,7 @@ import ipaddress
 import threading
 import time
 import logging
+import os
 
 init()
 GREEN = Fore.GREEN
