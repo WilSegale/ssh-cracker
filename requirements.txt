@@ -328,7 +328,7 @@ pyxdg==0.27
 PyYAML==5.4.1
 qrcode==7.3.1
 Quamash==0.6.1
-redis==3.5.3
+redis==4.5.3
 repoze.lru==0.7
 requests==2.27.1
 requests-file==1.5.1
