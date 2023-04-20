@@ -7,7 +7,6 @@ import ipaddress
 import threading
 import time
 import logging
-import os
 
 init()
 GREEN = Fore.GREEN
@@ -32,14 +31,19 @@ def ssh_connect(host, username, password):
         # If it didn't throw an exception, we know the credentials were successful, so we write it to a file.
         with open("credentials_found.txt", "a") as fh:
             # We write the credentials that worked to a file.
-            print(f"{GREEN}{BRIGHT}Username - {username} and Password - **** found.{NORMAL}{RESET}")
+            print(f"{GREEN}{BRIGHT}Username - {username} and Password - **** found.{RESET}")
             fh.write(f"{GREEN}Username: {username}\nPassword: {password}\nWorked on host {RESET}{host}\n")
     
     except AuthenticationException:
-        with open("Wrong_credentials.txt","a") as fh:
+        with open('data.csv', mode='w', newline='') as fh:
+            
+            data = {'username': {username},
+                    "password":{password}}
+            writer = csv.writer(fh)
+            for row in data:
+                writer.writerow(row)
             # We write the credentials that did not work to a file.
-            print(f"{RED}Username - {username} and Password - **** is Incorrect.{RESET}{NORMAL}")
-            fh.write(f"\n{Fore.RESET}Username - {username} and Password - {password} is Incorrect.")
+            print(f"{RED}Username - {username} and Password - **** is Incorrect.{RESET}")
     
     except ssh_exception.SSHException:
         print(f"{RED}**** Attempting to connect - Rate limiting on server ****")
