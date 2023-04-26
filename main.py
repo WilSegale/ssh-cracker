@@ -59,8 +59,6 @@ def get_ip_address():
         except ipaddress.AddressValueError:
             # If host is not a valid IPv4 address we send the message that the user should enter a valid ip address.
             print("Please enter a valid ip address.")
-            
-        
 
 # The program will start in the main function.
 def __main__():
@@ -84,8 +82,6 @@ def __main__():
                 # We leave a small time between starting a new connection thread.
                 time.sleep(0.2)
                 # ssh_connect(host, ssh_port, row[0], row[1])
-
-            
 
 #  We run the main function where execution starts.
 __main__()
