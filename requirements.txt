@@ -385,7 +385,7 @@ tld==0.11.11
 tls-parser==1.2.2
 token-bucket==0.3.0
 tomli==2.0.1
-tornado==6.1
+tornado==6.3.2
 tqdm==4.64.0
 traitlets==5.3.0
 translationstring==1.4
