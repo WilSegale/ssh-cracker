@@ -29,16 +29,14 @@ def ssh_connect(host, username, password):
         # We attempt to connect to the host, on port 22 which is ssh, with password, and username that was read from the csv file.
         ssh_client.connect(host,port=22,username=username, password=password, banner_timeout=300)
         # If it didn't throw an exception, we know the credentials were successful, so we write it to a file.
-        with open("credentials_found.txt", "a") as fh:
+        with open("credentials_found.csv", "a") as fh:
             # We write the credentials that worked to a file.
             print(f"{GREEN}{BRIGHT}Username - {username} and Password - **** found.{RESET}")
             fh.write(f"{GREEN}Username: {username}\nPassword: {password}\nWorked on host {RESET}{host}\n")
     
     except AuthenticationException:
         with open('data.csv', mode='w', newline='') as fh:
-            
-            data = {'username': {username},
-                    "password":{password}}
+            data = {'username': {username},"password":{password}}
             writer = csv.writer(fh)
             for row in data:
                 writer.writerow(row)
