@@ -148,7 +148,7 @@ iniconfig==1.1.1
 invoke==1.7.0
 ipwhois==0.15.1
 IPy==1.1
-ipython==7.31.1
+ipython==8.10.0
 itsdangerous==2.1.2
 jaraco.classes==3.2.1
 jaraco.collections==3.5.1
