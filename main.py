@@ -36,7 +36,7 @@ def ssh_connect(host, username, password):
     
     except AuthenticationException:
         with open('data.csv', mode='w', newline='') as fh:
-            data = {'username': {username},"password":{password}}
+            data = {}
             writer = csv.writer(fh)
             for row in data:
                 writer.writerow(row)
