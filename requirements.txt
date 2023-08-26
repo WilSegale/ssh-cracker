@@ -296,7 +296,7 @@ PyQRCode==1.2.1
 PyQt5==5.15.7
 PyQt5-sip==12.11.0
 pyqtgraph==0.12.4
-pyramid==2.0
+pyramid==2.0.2
 pyrsistent==0.18.1
 pyserial==3.5
 pyShodan==0.2.3
