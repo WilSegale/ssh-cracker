@@ -118,7 +118,7 @@ GDAL==3.5.1
 geoip2==2.9.0
 geojson==2.5.0
 gitdb==4.0.9
-GitPython==3.1.30
+GitPython==3.1.35
 gpg==1.17.1
 graphene==2.1.9
 graphene-sqlalchemy==2.1.2
