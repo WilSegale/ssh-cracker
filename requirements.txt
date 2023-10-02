@@ -262,7 +262,7 @@ pycares==4.1.2
 pycparser==2.21
 pycryptodomex==3.11.0
 pycurl==7.44.1
-pydantic==1.9.0
+pydantic==1.10.13
 PyDispatcher==2.0.5
 pydot==1.4.2
 pyee==9.0.4
