@@ -4,7 +4,7 @@ aiocmd==0.1.2
 aioconsole==0.3.1
 aiodns==3.0.0
 aiofiles==0.8.0
-aiohttp==3.8.1
+aiohttp==3.8.5
 aiomultiprocess==0.8.0
 aioredis==1.3.1
 aiosignal==1.2.0
@@ -48,7 +48,7 @@ Brotli==1.0.9
 catfish==4.16.4
 cbor==1.0.0
 censys==2.0.9
-certifi==2022.12.7
+certifi==2023.7.22
 cffi==1.15.1
 chardet==4.0.0
 charset-normalizer==2.0.6
@@ -64,7 +64,7 @@ commonmark==0.9.1
 configobj==5.0.6
 constantly==15.1.0
 crackmapexec==5.2.2
-cryptography==3.4.8
+cryptography==41.0.4
 cycler==0.11.0
 Cython==0.29.30
 dataclasses-json==0.5.7
@@ -75,7 +75,7 @@ defusedxml==0.7.1
 dicttoxml==1.7.4
 distlib==0.3.5
 distro==1.7.0
-Django==3.2.16
+Django==3.2.22
 dnslib==0.9.19
 dnspython==2.2.1
 docopt==0.6.2
@@ -97,7 +97,7 @@ filedepot==0.5.2
 filelock==3.7.1
 filteralchemy==0.1.0
 flasgger==0.9.5
-Flask==2.0.1
+Flask==2.2.5
 Flask-Classful==0.14.1
 Flask-KVSession-fork==0.6.4
 Flask-Limiter==1.0.1
@@ -105,7 +105,7 @@ Flask-Login==0.5.0
 Flask-Mail==0.9.1
 Flask-Principal==0.4.0
 Flask-RESTful==0.3.9
-Flask-Security-Too==4.0.0
+Flask-Security-Too==4.1.0
 Flask-SocketIO==5.0.1
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.14.3
@@ -113,12 +113,12 @@ flatbuffers==2.0.6+dfsg1.1
 fonttools==4.32.0
 frozenlist==1.2.0
 fs==2.4.16
-future==0.18.2
-GDAL==3.5.1
+future==0.18.3
+GDAL==3.6.0
 geoip2==2.9.0
 geojson==2.5.0
 gitdb==4.0.9
-GitPython==3.1.30
+GitPython==3.1.35
 gpg==1.17.1
 graphene==2.1.9
 graphene-sqlalchemy==2.1.2
@@ -148,7 +148,7 @@ iniconfig==1.1.1
 invoke==1.7.0
 ipwhois==0.15.1
 IPy==1.1
-ipython==7.31.1
+ipython==8.10.0
 itsdangerous==2.1.2
 jaraco.classes==3.2.1
 jaraco.collections==3.5.1
@@ -180,7 +180,7 @@ lsassy==3.1.1
 lxml==4.9.1
 lz4==4.0.0+dfsg
 macholib==1.16
-Mako==1.1.3
+Mako==1.2.2
 Markdown==3.4.1
 MarkupSafe==2.0.1
 marshmallow==3.15.0
@@ -214,7 +214,7 @@ ntlm-auth==1.4.0
 ntpsec==1.2.1
 numba==0.55.2
 numexpr==2.8.3
-numpy==1.21.5
+numpy==1.22.2
 odfpy==1.4.2
 olefile==0.46
 onboard==1.4.1
@@ -236,7 +236,7 @@ pgcli==3.4.1
 pgspecial==1.11.10
 phonenumbers==8.12.1
 pickleshare==0.7.5
-Pillow==9.2.0
+Pillow==10.0.1
 plaster==1.0
 plaster-pastedeploy==0.5
 platformdirs==2.5.2
@@ -258,11 +258,11 @@ py-ubjson==0.16.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycairo==1.20.1
-pycares==4.1.2
+pycares==4.2.0
 pycparser==2.21
 pycryptodomex==3.11.0
 pycurl==7.44.1
-pydantic==1.9.0
+pydantic==1.10.13
 PyDispatcher==2.0.5
 pydot==1.4.2
 pyee==9.0.4
@@ -270,7 +270,7 @@ pyExploitDb==0.2.0
 pyfiglet==0.8.post0
 pygame==2.1.2
 pygexf==0.2.2
-Pygments==2.12.0
+Pygments==2.15.0
 PyGObject==3.42.1
 pygraphviz==1.7
 PyHamcrest==2.0.2
@@ -286,7 +286,7 @@ PyOpenGL==3.1.5
 pyOpenSSL==21.0.0
 pyotp==2.6.0
 pyparsing==3.0.7
-PyPDF2==2.6.0
+PyPDF2==2.10.6
 pyperclip==1.8.2
 pypng==0.0.20
 pyppeteer==0.2.5
@@ -296,7 +296,7 @@ PyQRCode==1.2.1
 PyQt5==5.15.7
 PyQt5-sip==12.11.0
 pyqtgraph==0.12.4
-pyramid==2.0
+pyramid==2.0.2
 pyrsistent==0.18.1
 pyserial==3.5
 pyShodan==0.2.3
@@ -328,9 +328,9 @@ pyxdg==0.27
 PyYAML==5.4.1
 qrcode==7.3.1
 Quamash==0.6.1
-redis==3.5.3
+redis==4.3.6
 repoze.lru==0.7
-requests==2.27.1
+requests==2.31.0
 requests-file==1.5.1
 requests-ntlm==1.1.0
 requests-toolbelt==0.9.1
@@ -367,9 +367,9 @@ spyse-python==2.2.3
 SQLAlchemy==1.4.31
 sqlalchemy-schemadisplay==1.3
 SQLAlchemy-Utc==0.11.0
-sqlparse==0.4.2
+sqlparse==0.4.4
 sslyze==5.0.5
-starlette==0.18.0
+starlette==0.27.0
 stone==3.3.1
 sympy==1.10.1
 syslog-rfc5424-formatter==1.2.2
@@ -385,11 +385,11 @@ tld==0.11.11
 tls-parser==1.2.2
 token-bucket==0.3.0
 tomli==2.0.1
-tornado==6.1
+tornado==6.3.3
 tqdm==4.64.0
 traitlets==5.3.0
 translationstring==1.4
-Twisted==22.4.0
+Twisted==22.10.0rc1
 txaio==21.2.1
 typing-extensions==3.10.0.2
 typing-inspect==0.7.1
@@ -400,7 +400,7 @@ ujson==5.4.0
 unicodecsv==0.14.1
 unicodedata2==14.0.0
 Unidecode==1.3.4
-urllib3==1.26.9
+urllib3==1.26.17
 urwid==2.1.2
 uvicorn==0.17.6
 uvloop==0.16.0
@@ -416,14 +416,14 @@ WebOb==1.8.6
 websocket-client==1.2.3
 websockets==10.2
 websockify==0.10.0
-Werkzeug==2.0.2
+Werkzeug==2.2.3
 wfuzz==3.1.0
 whois==0.8
 wifite==2.6.0
 winacl==0.1.2
 wsaccel==0.6.3
 wsproto==1.1.0
-WTForms==2.2.1
+WTForms==2.3.0
 xdg==5
 xlrd==1.2.0
 XlsxWriter==3.0.2
@@ -438,3 +438,4 @@ zipp==1.0.0
 zlib-wrapper==0.1.3
 zope.deprecation==4.4.0
 zope.interface==5.4.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
