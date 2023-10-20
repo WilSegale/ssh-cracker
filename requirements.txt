@@ -404,7 +404,7 @@ urllib3==1.26.9
 urwid==2.1.2
 uvicorn==0.17.6
 uvloop==0.16.0
-validators==0.20.0
+validators==0.21.0
 venusian==3.0.0
 virtualenv==20.15.0+ds
 wafw00f==2.2.0
