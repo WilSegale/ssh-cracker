@@ -371,7 +371,7 @@ sqlparse==0.4.2
 sslyze==5.0.5
 starlette==0.18.0
 stone==3.3.1
-sympy==1.10.1
+sympy==1.12
 syslog-rfc5424-formatter==1.2.2
 tables==3.7.0
 tabulate==0.8.9
