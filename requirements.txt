@@ -110,7 +110,7 @@ Flask-SocketIO==5.0.1
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.14.3
 flatbuffers==2.0.6+dfsg1.1
-fonttools==4.32.0
+fonttools==4.43.0
 frozenlist==1.2.0
 fs==2.4.16
 future==0.18.2
