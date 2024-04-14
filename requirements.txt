@@ -140,7 +140,7 @@ hupper==1.10.3
 hyperframe==6.0.0
 hyperlink==21.0.0
 icalendar==4.0.3
-idna==3.3
+idna==3.7
 impacket==0.10.0
 importlib-metadata==4.6.4
 incremental==21.3.0
