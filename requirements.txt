@@ -157,7 +157,7 @@ jaraco.functools==3.5.0
 jaraco.text==3.7.0
 jdcal==1.0
 jedi==0.18.0
-Jinja2==3.0.3
+Jinja2==3.1.4
 jq==1.2.1
 jsonschema==3.2.0
 kaitaistruct==0.9
@@ -416,7 +416,7 @@ WebOb==1.8.6
 websocket-client==1.2.3
 websockets==10.2
 websockify==0.10.0
-Werkzeug==2.0.2
+Werkzeug==3.0.3
 wfuzz==3.1.0
 whois==0.8
 wifite==2.6.0
