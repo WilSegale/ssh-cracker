@@ -15,7 +15,7 @@ ajpy==0.0.4
 alembic==1.7.6.dev0
 altgraph==0.17.2
 aniso8601==9.0.1
-anyio==3.6.1
+anyio==4.4.0
 apispec==5.2.2
 apispec-webframeworks==0.5.2
 appdirs==1.4.4
