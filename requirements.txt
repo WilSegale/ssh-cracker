@@ -412,7 +412,7 @@ wapiti3==3.0.4
 wcwidth==0.2.5
 webargs==8.0.1
 webencodings==0.5.1
-WebOb==1.8.6
+WebOb==1.8.8
 websocket-client==1.2.3
 websockets==10.2
 websockify==0.10.0
