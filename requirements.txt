@@ -61,7 +61,7 @@ click-plugins==1.1.1
 cmd2==0.0.0
 colorama==0.4.5
 commonmark==0.9.1
-configobj==5.0.6
+configobj==5.0.9
 constantly==15.1.0
 crackmapexec==5.2.2
 cryptography==3.4.8
