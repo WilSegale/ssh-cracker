@@ -4,7 +4,7 @@ aiocmd==0.1.2
 aioconsole==0.3.1
 aiodns==3.0.0
 aiofiles==0.8.0
-aiohttp==3.8.1
+aiohttp==3.10.11
 aiomultiprocess==0.8.0
 aioredis==1.3.1
 aiosignal==1.2.0
@@ -114,7 +114,7 @@ fonttools==4.32.0
 frozenlist==1.2.0
 fs==2.4.16
 future==0.18.2
-GDAL==3.5.1
+GDAL==3.9.3
 geoip2==2.9.0
 geojson==2.5.0
 gitdb==4.0.9
@@ -385,7 +385,7 @@ tld==0.11.11
 tls-parser==1.2.2
 token-bucket==0.3.0
 tomli==2.0.1
-tornado==6.1
+tornado==6.4.2
 tqdm==4.64.0
 traitlets==5.3.0
 translationstring==1.4
