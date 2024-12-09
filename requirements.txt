@@ -416,7 +416,7 @@ WebOb==1.8.6
 websocket-client==1.2.3
 websockets==10.2
 websockify==0.10.0
-Werkzeug==2.0.2
+Werkzeug==2.2.3
 wfuzz==3.1.0
 whois==0.8
 wifite==2.6.0
