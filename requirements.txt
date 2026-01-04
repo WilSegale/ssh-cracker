@@ -344,7 +344,7 @@ ruamel.yaml==0.17.16
 ruamel.yaml.clib==0.2.6
 rule-engine==1.1.0
 Rx==3.2.0
-scapy==2.4.4
+scapy==2.7.0rc1
 scipy==1.7.3
 secure==0.3.0
 service-identity==18.1.0
